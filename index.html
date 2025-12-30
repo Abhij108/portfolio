@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhijeet Verma | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <h1 class="logo-text">Abhijeet.dev</h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- HERO -->
+        <section id="home">
+            <div class="home-content">
+                <h1>Hello 👋</h1>
+                <h2>I am <span id="typing"></span></h2>
+                <p>Building modern, scalable and visually stunning web applications.</p>
+                <p>I create beautiful, functional web experiences that solve real problems. With expertise in React,
+                    Node.js, and modern design principles, I bring ideas to life through clean code and thoughtful
+                    design.</p>
+
+                <div class="buttons">
+                    <a href="#projects" class="btn primary">View Work</a>
+                    <a href="#contact" class="btn secondary">Contact Me</a>
+                </div>
+            </div>
+
+            <div class="image">
+                <img src="assests/img2.png" alt="Abhijeet Verma">
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section id="about" class="reveal">
+            <h2 class="section-title">About Me</h2>
+            <p class="section-desc">
+                Passionate full-stack developer focused on clean code, performance and UI excellence.
+            </p>
+
+            <div class="cards">
+                <div class="card">
+                    <img src="assests/code-solid-full.svg">
+                    <h3>Frontend Development</h3>
+                    <p>HTML, CSS, JavaScript, React</p>
+                    <p>Expert in React, TypeScript, and modern CSS frameworks like Tailwind CSS.</p>
+                </div>
+
+                <div class="card">
+                    <img src="assests/database-solid-full.svg">
+                    <h3>Backend Development</h3>
+                    <p>Node.js, Express, MongoDB</p>
+                    <p>Proficient in Node.js, Express, and database management with MySQL and MongoDB.</p>
+                </div>
+
+                <div class="card">
+                    <img src="assests/compass-drafting-solid-full.svg">
+                    <h3>UI/UX</h3>
+                    <p>Modern, responsive & accessible design</p>
+                    <p>Creating intuitive interfaces with a focus on user experience and accessibility.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section id="projects" class="reveal">
+            <h2 class="section-title">Featured Projects</h2>
+
+            <div class="projects">
+                <div class="project-card">
+                    <img src="assests/Screenshot 2025-11-20 121407.png">
+                    <h3>Online Food Delivery</h3>
+                    <p>End-to-end food delivery web application.</p>
+                    <p>Built with React, Node.js (Express), and MongoDB, the system includes secure authentication,
+                        admin-based menu and order management, and a responsive UI.</p>
+                    <p>Designed as a lightweight solution for small restaurants and canteens, with future scope for
+                        online payments and live order tracking.</p>
+                </div>
+
+                <div class="project-card">
+                    <img src="assests/Screenshot 2025-12-21 205736.png">
+                    <h3>Movie Matcher</h3>
+                    <p>Smart movie recommendation system.</p>
+                    <p> Built using Python and Natural Language Processing (NLP), offers a user-friendly way to discover
+                        your next favorite movie. </p>
+                    <p>We utilize the bag-of-words concept to generate movie recommendations based on factors like
+                        similarity, tags, genre, and production company. </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact" class="reveal">
+            <h2 class="section-title">Get In Touch</h2>
+
+            <div class="contact-grid">
+
+
+                <div class="contact-form">
+                    <form action="https://formsubmit.co/vabhijeet345@gmail.com" method="POST" class="contact-form">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <textarea placeholder="Your Message"></textarea>
+                        <button class="btn primary">Send Message</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <h2>Quick Links </h2>
+                    <p>Email: <a href="mailto:vabhijeet345@gmail.com">vabhijeet345@gmail.com</a></p>
+                    <p>GitHub: <a href="https://github.com/Abhij108">github.com/Abhij108</a></p>
+                    <p>LinkedIn: <a
+                            href="https://linkedin.com/in/abhijeet-verma-040773267">linkedin.com/in/abhijeet-verma-040773267</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
