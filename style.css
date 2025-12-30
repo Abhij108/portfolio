@@ -106,8 +106,8 @@ nav a:hover {
 
 /* PROFILE IMAGE */
 .image img {
-    width: 320px;
-    height: 320px;
+    width: 500px;
+    height: 420px;
     object-fit: cover;
     border-radius: 16px;
     animation: float 4s ease-in-out infinite;
