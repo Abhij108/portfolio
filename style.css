@@ -123,11 +123,12 @@ nav a:hover {
 
 /* PROFILE IMAGE */
 .image img {
-    width: 500px;
-    height: 420px;
-    object-fit: cover;
-    border-radius: 16px;
+    width: 420px;
+    height: 450px;
+    object-fit: fill;
+    border-radius: 50%;
     animation: float 4s ease-in-out infinite;
+    border: 2px solid #6366f1;
 }
 
 
